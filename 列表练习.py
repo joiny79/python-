@@ -1,0 +1,14 @@
+mylist=[21,25,21,23,22,20]
+print(mylist)
+mylist.append(31)
+print(f"追加数字后，列表为{mylist}")
+mylist_2=[29,33,30]
+mylist.extend(mylist_2)
+print(f"追加一个新列表后，列表变为{mylist}")
+num1=mylist[0]
+print(f"从列表中取出第一个元素是{num1}")
+num2=mylist[-1]
+print(f"从列表中取出的最后一个元素是{num2}")
+index=mylist.index(31)
+print(f"查找到元素在下标{index}")
+print(f"最后列表的内容为{mylist}")
